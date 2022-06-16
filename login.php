@@ -1,3 +1,4 @@
+
 <link rel="stylesheet" href="style.css">
 
 <div id="id02" class="modal">
@@ -26,3 +27,5 @@
     </div>
   </form>
 </div>
+
+<?php include "footer.php"; ?>

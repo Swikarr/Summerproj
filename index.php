@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Hotel Vardani</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<?php include "header.php"; ?>
 
 <!-- Navigation -->
 
@@ -40,19 +29,20 @@
       <li><button onclick="document.getElementById('id02').style.display='block'">Log In</button></li>
     </ul>
     </form>
+
+    <form method="post" action ="Bookingform.php">
+    <ul class="nav navbar-nav navbar-right">
+      <li><button onclick="document.getElementById('id03').style.display='block'">Book now</button></li>
+    </ul>
+    </form>
     
   </div>
 </nav>
-  
 
 
-<div class="container">
-  <h3>Right Aligned Navbar</h3>
-  <p>The .navbar-right class is used to right-align navigation bar buttons.</p>
-</div>
-<center>
+
 <?php include "footer.php"; ?>
-</center>
+
 
 </body>
 </html>
