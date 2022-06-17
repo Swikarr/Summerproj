@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="style.css">
+
 <div id="id01" class="modal">
   <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal"></span>
   <form class="modal-content" action="/action_page.php">
@@ -32,4 +33,3 @@
   </form>
 </div>
 
-<?php include "footer.php"; ?>

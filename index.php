@@ -5,15 +5,15 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Vardani</a>
+      <a class="navbar-brand" href="index.php">Vardani</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
+      <li class="active"><a href="#">About</a></li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Rooms <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="#">Deluxe</a></li>
-          <li><a href="#">Standard</a></li>
-          <li><a href="#">Royal</a></li>
+          <li><a href="Bookingform.php">Deluxe</a></li>
+          <li><a href="Bookingform.php">Standard</a></li>
+          <li><a href="Bookingform.php">Royal</a></li>
         </ul>
       </li>
       <li><a href="#">Events</a></li>

@@ -1,0 +1,65 @@
+/* Footers */
+
+
+.footer{
+    margin-top: 500px;
+    width: 100%;
+    padding: 30px 15%;
+    background: #333;
+    color:#efefef;
+    display: flex;
+}
+.footer div{
+    text-align: center;
+}
+.col-2{
+  flex-grow: 2;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+.footer div h7{
+    font-weight: 300;
+    margin-bottom: 40px;
+    margin-left: 0px;    letter-spacing: 1px;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color:#efefef;
+    margin-bottom: 4px;
+    margin-top: 3px;
+    margin-right: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+.footer form input{
+    width: 300px;
+    height: 35px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+
+}
+.footer form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.social-icons{
+    margin-top: 30px;
+
+}
+.social-icons a{
+    font-size: 20px;
+    margin: 1px;
+    cursor: pointer;
+}
+.col-4{
+    margin-left: 100px;
+}
