@@ -32,11 +32,11 @@
 
     <form method="post" action ="Bookingform.php">
     <ul class="nav navbar-nav navbar-right">
-      <li><button onclick="document.getElementById('id03').style.display='block'">Book now</button></li>
+      <li><button id="myBtn" onclick="document.getElementById('id03').style.display='block'">Book now</button></li>
     </ul>
-    </form>
-    
-  </div>
+   
+</form>
+</div>
 </nav>
 
 

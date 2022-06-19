@@ -1,8 +1,10 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 <link rel="stylesheet" href="bookstyle.css">
 
-<body>
-<form class="hotel-reservation-form" method="post" action="">
+<body> 
+			
+<div class="container form">
+<form class="hotel-reservation-form" method="post" action="connectbooking.php">
 			<h1><i class="far fa-calendar-alt"></i>Hotel Reservation Form</h1>
 <div class="fields">
 			
@@ -85,11 +87,20 @@
 			<option disabled selected value="">--</option>
 			<option value="Standard">Standard</option>
 			<option value="Deluxe">Deluxe</option>
-			<option value="Suite">Suite</option>
+			<option value="Royal">Royal</option>
 		</select>
 	</div>
 	<input type="submit" value="Reserve">
+	
+
 </div>	
 
 </form>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 </body>
