@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="bookstyle.css">
 
 <body> 
-			
+	
 <div class="container form">
 <form class="hotel-reservation-form" method="post" action="connectbooking.php">
 			<h1><i class="far fa-calendar-alt"></i>Hotel Reservation Form</h1>
@@ -90,7 +90,7 @@
 			<option value="Royal">Royal</option>
 		</select>
 	</div>
-	<input type="submit" value="Reserve">
+	<input type="submit" name="submit" value="Reserve">
 	
 
 </div>	

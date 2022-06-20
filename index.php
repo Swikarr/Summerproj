@@ -1,3 +1,10 @@
+<?php session_start();
+
+if(!isset($_SESSION['username'])){
+  echo "You are logged OUT!";
+  header('location: login.php');
+}
+?>
 <?php include "header.php"; ?>
 
 <!-- Navigation -->
@@ -38,6 +45,9 @@
 </form>
 </div>
 </nav>
+
+
+<h1> Welcome <?php echo $_SESSION['username'];?></h1>
 
 
 

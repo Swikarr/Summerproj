@@ -23,7 +23,7 @@ else{
   $emailcount= mysqli_num_rows($query);
 
   if($emailcount>0){
-   echo "Email already present";
+   echo "Valid Email ";
   }else{
      if($psw ===$rpsw){
 
@@ -33,13 +33,14 @@ else{
     $stmt->close();
     $conn->close();
     echo "Registration Successful!";
+    
      } 
     else{
-      echo "The password doesn't match!" ."  ". "  ". "<a href='Signup.php'>Sign up Again </a>";
+      echo "<p style='color:red;'>The Email or password doesn't match!</p>" ."  ". "  ". "<a href='login.php'>Log In Again </a>";
      
-     }
+     } 
     //Redirect
-  //  header("location: http://localhost/summerproj/");
+  // header("location: http://localhost/summerproj/");
 
      exit();
 
