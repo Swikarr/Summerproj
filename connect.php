@@ -32,7 +32,7 @@ else{
     $stmt->execute();
     $stmt->close();
     $conn->close();
-    echo "Registration Successful!";  
+    echo "<h1>Registration Successful!</h1>";  
      } 
     else{
       echo "<p style='color:red;'>The Email or password doesn't match!</p>" ."  ". "  ". "<a href='login.php'>Log In Again </a>";

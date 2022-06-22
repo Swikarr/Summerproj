@@ -26,13 +26,17 @@ else{
     $stmt->execute();
     $stmt->close();
     $conn->close();
-    echo "Booking Successful!";
+    echo "<h1>Reservation requested!</h1>";
+
+   // header('location:index.php');
 
     exit();
     }
+    /*
     else{
         echo "No data my dear sir.";
     }
+    */
 }
 
 ?>

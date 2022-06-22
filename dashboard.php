@@ -12,7 +12,7 @@
 
 <div class="w3-sidebar w3-bar-block w3-black w3-xxlarge" style="width:70px">
   <a href="#" class="w3-bar-item w3-button"><i class="fa fa-home"></i></a> 
-  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-book"></i></a> 
+  <a href="display.php" class="w3-bar-item w3-button"><i class="fa fa-book"></i></a> 
   <a href="ourlocation.php" class="w3-bar-item w3-button"><i class="fa fa-map-marker"></i></a>
   <a href="index.php" class="w3-bar-item w3-button"><i class="fa fa-sign-out"></i></a> 
 </div>
