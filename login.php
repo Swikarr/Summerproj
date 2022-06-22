@@ -1,5 +1,12 @@
 <?php
 session_start();
+
+/* Logout paxi no entry */
+
+if(!isset($_SESSION['username'])){
+  echo "You are logged OUT!";
+  header('location: login.php');
+}
 ?>
 <link rel="stylesheet" href="style.css">
 
@@ -27,7 +34,7 @@ session_start();
         echo "<p style='color:green;'><b>Congratulations!<b></p>";
         ?>
         <script>
-          location.replace("index.php");
+          location.replace("dashboard.php");
           </script>
       <?php
       }

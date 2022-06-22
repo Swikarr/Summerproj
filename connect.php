@@ -1,5 +1,5 @@
 
-<!-- Connection into database -->
+<!-- Connection into database Sign up-->
 <?php
 
 $conn = new mysqli('localhost','root','','signup');
@@ -32,8 +32,7 @@ else{
     $stmt->execute();
     $stmt->close();
     $conn->close();
-    echo "Registration Successful!";
-    
+    echo "Registration Successful!";  
      } 
     else{
       echo "<p style='color:red;'>The Email or password doesn't match!</p>" ."  ". "  ". "<a href='login.php'>Log In Again </a>";
