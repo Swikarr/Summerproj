@@ -1,16 +1,16 @@
-
-
+<?php 
+include 'header.php';
+include 'connectbooking.php';		
+?>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 <link rel="stylesheet" href="bookstyle.css">
 
-<?php include 'connectbooking.php';
-?>
 
 <body> 
-	
+<div class="bg-img">
 <div class="container form">
 <form class="hotel-reservation-form" method="post" action="">
-			<h1><i class="far fa-calendar-alt"></i>Hotel Reservation Form</h1>
+			<h1 style="color:#278ac4;"><i class="far fa-calendar-alt"></i>Hotel Reservation Form</h1>
 <div class="fields">
 			
 				<!-- Input Elements -->
@@ -105,6 +105,7 @@
       </div>
     </div>
   </div>
+</div>
 </div>
 
 

@@ -3,6 +3,20 @@ body, div, input, span, a, select, textarea, option, h1, h2, h3, h4, main, aside
     font-family: Tahoma, Geneva, sans-serif;
 }
 
+.bg-img {
+    /* The image used */
+    background-image: url("images/var3.jpg");
+  
+    /* Control the height of the image */
+    min-height: 380px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
 input,textarea,select {
     outline: 0;
 }
@@ -91,7 +105,7 @@ h1 i {
     margin-top: 15px;
     padding: 15px;
     border: 0;
-    background-color: #cb5f51;
+    background-color: #0e4d72;
     font-weight: bold;
     color: #fff;
     cursor: pointer;
