@@ -5,9 +5,9 @@
     <div class="col-1">
         <script src="https://kit.fontawesome.com/7e33e82502.js" crossorigin="anonymous"></script>
         <h7>USEFUL LINKS</h7><br><br>
-        <a href="aboutus.html">About</a><br>
-        <a href="Message.html">Message</a><br>
-        <a href="Contact.html">Contact</a><br>
+        <a href="about.php">About</a><br>
+        <a href="room.php">Rooms</a><br>
+        <a href="contact.php">Contact</a><br>
         <a href="">Blog</a>
     </div>
     <div class="col-2">

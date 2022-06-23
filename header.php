@@ -24,8 +24,8 @@
       <li class=""><a href="about.php">About Us</a></li>
       <li class=""><a href="room.php">Rooms</a></li>
     
-      <li><a href="#">Gallery</a></li>
-      <li><a href="#">Contact Us</a></li>
+      <li><a href="gallery.php">Gallery</a></li>
+      <li><a href="contact.php">Contact Us</a></li>
       
     </ul>
     <form method="post" action ="Signup.php">
@@ -46,5 +46,6 @@
     </ul>
    
     </form>
+    
 </div>
 </nav>

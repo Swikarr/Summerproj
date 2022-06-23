@@ -14,11 +14,11 @@ if(!isset($_SESSION['username'])){
 
 <div id="stage">
 <a title="hello world"><img src="images/view.png" class="slider-img"></a>
-<a title="hello world"><img src="images/2.png"></a>
-<a title="hello world"><img src="images/3.png"></a>
-<a title="hello world"><img src="images/4.png"></a>
-<a title="hello world"><img src="images/5.png"></a>
-<a title="hello world"><img src="images/6.png"></a>
+<a title="hello Sathi"><img src="images/2.png"></a>
+<a title="hello Mom"><img src="images/3.png"></a>
+<a title="hello Babes"><img src="images/4.png"></a>
+<a title="hello Motu"><img src="images/5.png"></a>
+<a title="hello Dad"><img src="images/6.png"></a>
 
 </div>
 
@@ -90,8 +90,9 @@ if(!isset($_SESSION['username'])){
 
 
 
-<?php include "footer.php"; ?>
+
 
 
 </body>
+<?php include "footer.php"; ?>
 </html>
